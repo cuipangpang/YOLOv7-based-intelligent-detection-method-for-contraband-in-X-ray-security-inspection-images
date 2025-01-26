@@ -1,2 +1,4 @@
 # YOLOv7-based-intelligent-detection-method-for-contraband-in-X-ray-security-inspection-images
-a
+**Project Process**: Build an end-to-end object detection YOLOv7 contraband detection network. The YOLOv7 object detection algorithm adopts a cascaded model scaling method to effectively integrate features. By utilizing reparameterization and dynamic label allocation strategies to handle the weights of different output layers, it achieves high running speed and detection accuracy. The real-time detection tested can reach 24 FPS. A positive and negative sample matching strategy is adopted to effectively address the issues of class imbalance and invalid contextual semantics. To enable hardware deployment and migration of the algorithm model, a long-range attention mechanism enhances the reparameterized network model RepConv, and features from different network layers are connected to achieve feature reuse. Finally, to verify the feasibility of the algorithm, real security inspection SIXray data images are used for testing.
+
+**Project Outcome**: Experimental results show that the network can effectively detect contraband, with a network model compression rate of 62%.
